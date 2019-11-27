@@ -5,7 +5,7 @@ import styles from './header.module.scss'
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <h1>Bajo Dev</h1>
       <nav>
         <ul>
